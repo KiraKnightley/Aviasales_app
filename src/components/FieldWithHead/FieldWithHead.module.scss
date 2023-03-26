@@ -1,0 +1,21 @@
+@import "src/assets/variables";
+
+.fieldWithHead {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 140px;
+
+  &__header {
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    line-height: 18px;
+    color:#A0B0B9;
+  }
+
+  &__field {
+    color: $color_2;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
